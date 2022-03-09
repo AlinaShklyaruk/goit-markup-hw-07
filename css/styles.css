@@ -774,7 +774,7 @@ img {
   font-style: normal;
 }
 
-.address-item:not(:last-child) {
+.address-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -782,7 +782,7 @@ img {
   color: var(--light-text-logo);
 }
 
-.address-link {
+.address-list__link {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -793,7 +793,7 @@ img {
   margin-left: 70px;
 }
 
-.join-us-text {
+.join-us__text {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -802,7 +802,7 @@ img {
   color: var(--adress-text-color);
 }
 
-.footer-social-list {
+.footer-social {
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -810,7 +810,7 @@ img {
   justify-content: center;
 }
 
-.footer-social-link {
+.footer-social__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -825,18 +825,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social__link:hover,
+.footer-social__link:focus {
   color: var(--light-text-logo);
   background-color: var(--accent-color);
 }
 
-.footer-social-icon {
+.footer-social__icon {
   fill: currentColor;
 }
 
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
+.footer-social__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .subscribe-form {
@@ -848,7 +848,7 @@ img {
   margin-left: auto;
 }
 
-.subscribe-form-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   font-size: 16px;
@@ -865,7 +865,7 @@ img {
   border-radius: 4px;
 }
 
-.subscribe-text {
+.subscribe-form__text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -875,11 +875,11 @@ img {
   color: var(--light-text-logo);
 }
 
-.subscribe-form-field {
+.subscribe-form__field {
   display: flex;
 }
 
-.subscribe-btn {
+.subscribe-form__btn {
   display: flex;
   width: 200px;
   height: 50px;
@@ -900,12 +900,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
+.subscribe-form__btn:hover,
+.subscribe-form__btn:focus {
   background: var(--btn-color-active);
 }
 
-.subscribe-icon {
+.subscribe-form__icon {
   margin-left: 10px;
   fill: var(--background-color);
 }
