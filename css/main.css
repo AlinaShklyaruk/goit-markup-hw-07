@@ -87,6 +87,10 @@ button {
   padding-top: 0;
 }
 
+.section__other-bg {
+  background-color: #f5f4fa;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -652,17 +656,12 @@ button {
   margin-right: 30px;
 }
 
-.team-section {
-  padding-top: 94px;
-  background-color: #f5f4fa;
-}
-
 .team-card__text {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-list {
+.team {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
