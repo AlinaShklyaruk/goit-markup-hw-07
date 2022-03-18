@@ -73,10 +73,6 @@ button {
   padding-top: 94px;
 }
 
-.current {
-  color: #2196f3;
-}
-
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -197,7 +193,11 @@ button {
   fill: currentColor;
 }
 
-.current::after {
+.site-nav__link--current {
+  color: #2196f3;
+}
+
+.site-nav__link--current::after {
   position: absolute;
   left: 0;
   bottom: -1px;
