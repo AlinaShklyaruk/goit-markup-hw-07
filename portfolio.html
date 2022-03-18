@@ -22,39 +22,34 @@
   </head>
   <body>
     <header class="header">
-      <div class="container nav-container">
+      <div class="container header__container">
         <nav class="navigation">
-          <a href="./index.html" class="logo link"
-            >Web<span class="header__logo">Studio</span>
+          <a href="./index.html" class="logo"
+            >Web<span class="logo__dark">Studio</span>
           </a>
-          <ul class="header-list list">
-            <li class="header-list__item">
-              <a href="./index.html" class="header-list__link link">Студия</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link current">Студия</a>
             </li>
-            <li class="header-list__item">
-              <a href="./portfolio.html" class="header-list__link link current"
-                >Портфолио</a
-              >
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="header-list__item">
-              <a href="" class="header-list__link link">Контакты</a>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts-list list">
-          <li class="contacts-list__item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="contacts-list__link link"
-            >
-              <svg class="contacts-list__icon" width="16" height="12">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com
             </a>
           </li>
-          <li class="contacts-list__item">
-            <a href="tel:+380961111111" class="contacts-list__link link">
-              <svg class="contacts-list__icon" width="10" height="16">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -69,37 +64,35 @@
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
 
-          <ul class="portfolio-filters list">
+          <ul class="portfolio-filters">
             <li class="portfolio-filter__item">
-              <button type="button" class="portfolio-filter__btn button">
-                Все
-              </button>
+              <button type="button" class="portfolio-filter__btn">Все</button>
             </li>
             <li class="portfolio-filter__item">
-              <button type="button" class="portfolio-filter__btn button">
+              <button type="button" class="portfolio-filter__btn">
                 Веб-сайты
               </button>
             </li>
             <li class="portfolio-filter__item">
-              <button type="button" class="portfolio-filter__btn button">
+              <button type="button" class="portfolio-filter__btn">
                 Приложения
               </button>
             </li>
             <li class="portfolio-filter__item">
-              <button type="button" class="portfolio-filter__btn button">
+              <button type="button" class="portfolio-filter__btn">
                 Дизайн
               </button>
             </li>
             <li class="portfolio-filter__item">
-              <button type="button" class="portfolio-filter__btn button">
+              <button type="button" class="portfolio-filter__btn">
                 Маркетинг
               </button>
             </li>
           </ul>
 
-          <ul class="portfolio-list list">
+          <ul class="portfolio-list">
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio1.jpg"
@@ -121,7 +114,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio2.jpg"
@@ -144,7 +137,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio3.jpg"
@@ -167,7 +160,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio4.jpg"
@@ -190,7 +183,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio5.jpg"
@@ -213,7 +206,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio6.jpg"
@@ -236,7 +229,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio7.jpg"
@@ -259,7 +252,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio8.jpg"
@@ -282,7 +275,7 @@
             </li>
 
             <li class="portfolio-card">
-              <a href="" class="portfolio-card__link link">
+              <a href="" class="portfolio-card__link">
                 <div class="portfolio-overlay">
                   <img
                     src="images/portfolio9.jpg"
@@ -311,28 +304,26 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="address-container">
-          <a href="./index.html" class="logo link"
-            >Web<span class="footer__logo">Studio</span></a
+          <a href="./index.html" class="logo"
+            >Web<span class="logo__light">Studio</span></a
           >
 
           <address class="address">
-            <ul class="address-list list">
+            <ul class="address-list">
               <li class="address-list__item">
                 <a
                   href="https://goo.gl/maps/1CCgBMhMhpkexp9j6"
-                  class="address-list__link link"
+                  class="address-list__link"
                   >г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
               <li class="address-list__item">
-                <a
-                  href="mailto:info@example.com"
-                  class="contacts-list__link link"
+                <a href="mailto:info@example.com" class="contacts-list__link"
                   >info@example.com</a
                 >
               </li>
               <li class="address-list__item">
-                <a href="tel:+380991111111" class="contacts-list__link link"
+                <a href="tel:+380991111111" class="contacts-list__link"
                   >+38 099 111 11 11
                 </a>
               </li>
@@ -387,7 +378,7 @@
                 placeholder="E-mail"
                 class="subscribe-form__input"
               />
-              <button type="submit" class="subscribe-form__btn button">
+              <button type="submit" class="subscribe-form__btn">
                 Подписаться
                 <svg class="subscribe-form__icon" width="24" height="24">
                   <use href="images/icons.svg#icon-send"></use>
