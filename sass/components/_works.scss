@@ -1,22 +1,8 @@
-.works-section {
-  padding-top: 0;
-}
-
-.works-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $title-color;
-}
-
-.works-list__item {
+.works__item {
   position: relative;
 }
 
-.works-list__title {
+.works__text {
   position: absolute;
   display: flex;
   align-items: center;
@@ -33,10 +19,10 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.works-list {
+.works {
   display: flex;
 }
 
-.works-list__item:not(:last-child) {
+.works__item:not(:last-child) {
   margin-right: 30px;
 }
