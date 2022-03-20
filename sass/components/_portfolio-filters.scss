@@ -1,10 +1,10 @@
-.portfolio-filters {
+.filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-filter__btn {
+.filters__btn {
   min-width: 73px;
   padding: 6px 22px;
   font-weight: 500;
@@ -29,10 +29,6 @@
   }
 }
 
-.portfolio-filter__item:last-child {
-  margin-right: 0px;
-}
-
-.portfolio-filter__item:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
